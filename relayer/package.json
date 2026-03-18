@@ -1,0 +1,23 @@
+{
+  "name": "soroswap-relayer",
+  "version": "1.0.0",
+  "description": "Cross-chain relayer for SoroSwap Bridge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "@stellar/stellar-sdk": "^12.1.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "prisma": "^5.22.0",
+    "supertest": "^7.2.2"
+  }
+}
