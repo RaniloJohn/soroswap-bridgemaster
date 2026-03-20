@@ -23,3 +23,17 @@ soroswap-bridge/
 - Stellar CLI 25.x
 - Node.js 22.x / npm 10.x
 - VS Build Tools 2022 (Windows)
+
+## Deployed Contract (Testnet)
+
+| Field | Value |
+| :--- | :--- |
+| **Network** | Stellar Testnet |
+| **Contract ID** | `CDNGJSUYHQRJYHGLMFFB0G6VLISVEA2FFNKKLFU3DPT7LB6R3SSZXGZ` |
+| **Explorer** | [View on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CDNGJSUYHQRJYHGLMFFB0G6VLISVEA2FFNKKLFU3DPT7LB6R3SSZXGZ) |
+| **Stellar Lab** | [View on Stellar Lab](https://lab.stellar.org/r/testnet/contract/CDNGJSUYHQRJYHGLMFFB0G6VLISVEA2FFNKKLFU3DPT7LB6R3SSZXGZ) |
+
+### Deployment Steps
+1.  **Build**: `cargo build --target wasm32-unknown-unknown --release`
+2.  **Optimize**: `stellar contract optimize --wasm "../../target/wasm32-unknown-unknown/release/soroban_htlc.wasm" --wasm-out "../../target/wasm32-unknown-unknown/release/soroban_htlc_optimized.wasm"`
+3.  **Deploy**: `stellar contract deploy --wasm "../../target/wasm32-unknown-unknown/release/soroban_htlc_optimized.wasm" --source alice --network testnet`
