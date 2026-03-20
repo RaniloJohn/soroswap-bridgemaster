@@ -29,9 +29,9 @@ soroswap-bridge/
 | Field | Value |
 | :--- | :--- |
 | **Network** | Stellar Testnet |
-| **Contract ID** | `CDNGJSUYHQRJYHGLMFFB0G6VLISVEA2FFNKKLFU3DPT7LB6R3SSZXGZ` |
-| **Explorer** | [View on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CDNGJSUYHQRJYHGLMFFB0G6VLISVEA2FFNKKLFU3DPT7LB6R3SSZXGZ) |
-| **Stellar Lab** | [View on Stellar Lab](https://lab.stellar.org/r/testnet/contract/CDNGJSUYHQRJYHGLMFFB0G6VLISVEA2FFNKKLFU3DPT7LB6R3SSZXGZ) |
+| **Contract ID** | `CCSTIDMXVLJ4HSPTK6Y6VUNTA3ROZNGNNIVJC2QBPXR5TUBWVVJRGKOL` |
+| **Explorer** | [View on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CCSTIDMXVLJ4HSPTK6Y6VUNTA3ROZNGNNIVJC2QBPXR5TUBWVVJRGKOL) |
+| **Stellar Lab** | [View on Stellar Lab](https://lab.stellar.org/r/testnet/contract/CCSTIDMXVLJ4HSPTK6Y6VUNTA3ROZNGNNIVJC2QBPXR5TUBWVVJRGKOL) |
 
 ### Deployment Steps
 1.  **Build**: `cargo build --target wasm32-unknown-unknown --release`
